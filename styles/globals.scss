@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./_variables";
+@import "./_fonts";
+
+* {
+  @apply p-0 m-0 box-border;
+}
+
+:root {
+  @apply text-sm md:text-base;
+}
