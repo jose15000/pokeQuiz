@@ -6,9 +6,18 @@
 @import "./_fonts";
 
 * {
-  @apply p-0 m-0 box-border;
+  @apply border-0 p-0 m-0 raleway box-border;
 }
 
 :root {
   @apply text-sm md:text-base;
+  color: nth($light_palette, 1);
+}
+
+body {
+  background-color: nth($dark_palette, 3);
+  min-width: 100svw;
+  max-width: 100svw;
+  min-height: 100svh;
+  max-height: 100svh;
 }

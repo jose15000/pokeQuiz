@@ -1,0 +1,12 @@
+@import "@/styles/_variables.scss";
+
+.container {
+  @apply flex justify-between mb-10 p-4 items-center justify-center w-1/4 h-24 rounded-lg border;
+  background-color: nth($dark_palette, 3);
+  border-color: nth($dark_palette, 1);
+
+  &__check {
+    @apply flex rounded-full border h-8 w-8;
+    border-color: nth($dark_palette, 1);
+  }
+}

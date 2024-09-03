@@ -1,0 +1,6 @@
+@import "@/styles/_variables.scss";
+
+.content {
+  @apply flex items-center justify-center w-full h-full;
+  color: nth($light_palette, 1);
+}

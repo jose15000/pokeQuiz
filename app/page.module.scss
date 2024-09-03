@@ -1,0 +1,8 @@
+@import "@/styles/_variables.scss";
+
+.container {
+  @apply flex flex-col items-center justify-center h-screen w-screen;
+  &__questions {
+    @apply flex flex-col items-center justify-center w-full;
+  }
+}
