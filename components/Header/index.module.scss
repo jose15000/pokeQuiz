@@ -1,0 +1,5 @@
+@import "@/styles/_variables";
+
+.container {
+  @apply flex items-center justify-center gap-10 p-10;
+}

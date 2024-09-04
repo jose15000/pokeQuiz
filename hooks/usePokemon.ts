@@ -1,4 +1,3 @@
-import api from "@/api";
 import { Pokemon } from "@/types/Pokemon";
 import axios from "axios";
 import { useEffect, useState } from "react";

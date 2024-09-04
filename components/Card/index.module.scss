@@ -1,6 +1,10 @@
 @import "@/styles/_variables.scss";
 
 .content {
-  @apply flex items-center justify-center w-full h-full;
+  @apply flex flex-col items-center justify-center;
   color: nth($light_palette, 1);
+
+  &__image {
+    @apply size-5/6;
+  }
 }

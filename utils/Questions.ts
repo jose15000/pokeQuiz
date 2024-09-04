@@ -1,4 +1,4 @@
-export const pokeTypes = [
+const arrayTypes = [
   "Normal",
   "Fighting",
   "Flying",
@@ -18,3 +18,5 @@ export const pokeTypes = [
   "Dark",
   "Fairy",
 ];
+
+export const pokeTypes = arrayTypes.map((type: string) => type.toUpperCase());

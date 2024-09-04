@@ -10,12 +10,22 @@
 }
 
 :root {
+  --lightMode: nth($light_palette, 1);
+  --darkMode: nth($darkpalette, 3);
   @apply text-sm md:text-base;
   color: nth($light_palette, 1);
 }
 
+.bg-darkMode {
+  background-color: var(--darkMode);
+}
+
+.bg-lightMode {
+  background-color: var(--lightMode);
+}
+
 body {
-  background-color: nth($dark_palette, 3);
+  @apply bg-darkMode;
   min-width: 100svw;
   max-width: 100svw;
   min-height: 100svh;
