@@ -1,0 +1,12 @@
+@import "@/styles/_variables.scss";
+
+.content {
+  @apply fixed inset-0 h-full flex items-center justify-center z-50;
+  @apply rounded-lg shadow-lg p-8 z-10;
+  @apply absolute top-2 right-2;
+
+  &__inner {
+    @apply absolute inset-0 opacity-90;
+    background-color: nth($dark_palette, 3);
+  }
+}

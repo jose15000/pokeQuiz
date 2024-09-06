@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { CardProps } from "@/types/CardProps";
 import module from "./index.module.scss";
 
